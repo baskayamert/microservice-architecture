@@ -27,6 +27,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+//app.UseCors(builder => builder.WithOrigins("frontend").AllowAnyHeader());
+
 app.MapControllers();
 
 app.Run();
