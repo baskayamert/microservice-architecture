@@ -23,7 +23,7 @@ namespace Discount.API.Repositories
 
             if (coupon == null)
             {
-                return new Coupon { ProductName = "No Discount", Amount = 0, Description = "No Discout Desc" };
+                return new Coupon { ProductName = "No Discount", Amount = 0, Description = "No Discount Desc" };
             }
 
             return coupon;
